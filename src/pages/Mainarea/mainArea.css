@@ -1,0 +1,22 @@
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
+.Lside{
+    height: 50rem;
+    width: 21%;
+    background-color: #c04c4c;
+    left: 0;
+    flex-wrap: wrap;
+}
+.Lside .profile img{
+    height: 50px;
+    padding: 1rem;
+}
+.Rside{
+    height: 50rem;
+    width: 21%;
+    background-color: #ddbbbb;
+    left: 0;
+    flex-wrap: wrap;
+}
