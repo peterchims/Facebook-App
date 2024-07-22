@@ -9,10 +9,32 @@
     left: 0;
     flex-wrap: wrap;
 }
+.Lside .profile{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
 .Lside .profile img{
     height: 50px;
     padding: 1rem;
 }
+.Lside .pro .flag{
+color: green;
+font-size: 2rem;
+}
+.Lside .pro .hrt{
+    color: blue;
+    font-size: 2rem;
+    }
+    .Lside .pro .fa-mess{
+        color: rgb(8, 22, 66);
+        font-size: 2rem;
+        }
+        .Lside .pro .fa-ang{
+            color: rgb(5, 5, 5);
+            font-size: 2rem;
+            }
 .Rside{
     height: 50rem;
     width: 21%;
