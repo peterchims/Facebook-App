@@ -1,7 +1,8 @@
 import React from 'react'
-import {  FaAngleDown, FaFacebookMessenger, FaFontAwesomeFlag, FaMedrt, FaUserFriends } from 'react-icons/fa'
+import {  FaAngleDown, FaFacebookMessenger, FaFontAwesomeFlag, FaMedrt, FaSearch, FaUserFriends } from 'react-icons/fa'
 
 import './mainArea.css'
+import { MdMoreHoriz, MdVideoCall } from 'react-icons/md';
 
 function MainArea() {
     return(
@@ -55,7 +56,37 @@ function MainArea() {
       middle
     </div>
     <div className='Rside'>
-       Lside
+     <div className='Contact'>
+        <div className='Contacts'>
+            Contacts
+        </div>
+     
+     <div className='chatIcon'>
+        <div className="icons">
+            <MdVideoCall />
+        </div>
+        <div className="icons">
+            <FaSearch  />
+        </div>
+        <div className="icons">
+            <MdMoreHoriz />
+        </div>
+     </div>
+     </div>
+     <div className='concise'>
+     <div className='profiles-1'>
+            <img src="/images/d..jpg" alt="logo" className='profile-display'/>
+       <div className='profile-text'>  Tech Community </div>
+        </div>
+        <div className='profiles-1'>
+            <img src="/images/d..jpg" alt="logo" className='profile-display'/>
+       <div className='profile-text'> Football Community </div>
+        </div>
+        <div className='profiles-1'>
+            <img src="/images/d..jpg" alt="logo" className='profile-display'/>
+       <div className='profile-text'> Tech Community </div>
+        </div>
+     </div>
     </div>
 </div>
     );
