@@ -101,14 +101,16 @@ function MainArea() {
             </div>
         </div>
     </div>
-</div>
-<div className='message-section-content'>
+    <div className='message-section-content'>
     <div className="message-card">
         <div className="message-container">
         <img src="/images/p3.jpg" alt="IMG" className='img-story-1' />
+      <h4>Peter4Tech</h4>
         </div>
     </div>
 </div>
+</div>
+
 </div>
 
  
