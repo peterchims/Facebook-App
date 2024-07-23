@@ -1,6 +1,5 @@
 import React from 'react'
 import {  FaAngleDown, FaFacebookMessenger, FaFontAwesomeFlag, FaGrin, FaMedrt, FaPlusCircle, FaSearch, FaUserFriends } from 'react-icons/fa'
-
 import './mainArea.css'
 import { MdMoreHoriz, MdVideoCall } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
@@ -11,46 +10,46 @@ function MainArea() {
 
     <div className='Lside'>
         <div className='profile'>
-            <img src='/images/d..jpg' className='profile' alt='bd' />
+            <img src='/images/d.jpg' className='profile' alt='bd' />
        Peter Lola
         </div>
         <div className='pro'>
         <FaUserFriends className='fa-mess' />
-        <div> Friends </div>
+        <div  className='profile-tag'> Friends </div>
         </div>
         <div className='pro'>
             <FaFontAwesomeFlag  className='flag' />
-            <div> Pages </div>
+            <div className='profile-tag'> Pages </div>
         </div>
         <div className='pro'>
             <FaMedrt className='hrt' />
-            <div> Covid-19 Center</div>
+            <div className='profile-tag'> Covid-19 Center</div>
         </div>
         <div className='pro'>
         <FaFacebookMessenger className='fa-mess' />
-        <div> Messenger Kids</div>
+        <div className='profile-tag'> Messenger Kids</div>
         </div>
         
         <div className='pro'>
         <FaAngleDown className='fa-ang' />
-        <div> See More</div>
+        <div className='profile-tag'> See More</div>
         </div>
         <hr />
         <div className='profiles'>
             <img src="/images/d.jpg" alt="logo" className='profile-display'/>
-       <div> Tech Community </div>
+       <div className='profile-tag'> Tech Community </div>
         </div>
         <div className='profiles'>
             <img src="/images/p1.jpg" alt="logo" className='profile-display'/>
-       <div> Football Community </div>
+       <div className='profile-tag'> Football Community </div>
         </div>
         <div className='profiles'>
             <img src="/images/p2.jpg" alt="logo" className='profile-display'/>
-       <div> Tech Community </div>
+       <div className='profile-tag'> Tech Community </div>
         </div>
         <div className='pros'>
         <FaAngleDown />
-        <div> See More</div>
+        <div className='profile-tag'> See More</div>
         </div>
     </div>
 
@@ -107,7 +106,9 @@ function MainArea() {
         <img src="/images/p3.jpg" alt="IMG" className='img-story-1' />
       <h4>Peter4Tech</h4>
         </div>
+        <div className='update'> Updated his cover image</div>
     </div>
+    <div className='edit'><MdMoreHoriz /></div>
 </div>
 </div>
 

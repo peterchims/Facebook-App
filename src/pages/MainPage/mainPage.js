@@ -48,7 +48,7 @@ function HeaderSection(){
                 <FaBell className='fa-plus' />
                 </div>
                 <div className='plus-1'>
-                    <img src="/images/d..jpg" className="img-d" alt="dp" />
+                    <img src="/images/d.jpg" className="img-d" alt="dp" />
                 </div>
             </div>
         </div>
