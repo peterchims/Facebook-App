@@ -116,3 +116,235 @@ justify-content: space-between;
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+
+/* MainArea Section */
+.MainArea {
+    display: grid;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    width: 45%;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+    
+}
+.img-story-1{
+    width: 30%;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+  left: 10px;
+   border: 2px solid #fff;
+}
+.img-story-2{
+    width: 30%;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+   right: 45px;
+   border: 2px solid #fff;
+}
+.img-story-3{
+    width: 30%;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+   right: 45px;
+   border: 2px solid #fff;
+}
+.img-story-4{
+    width: 30%;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+   right: 50px;
+   border: 2px solid #fff;
+}
+.bg-story{
+    width: 100%;
+   background:linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p1.jpg') ;
+   background-size: cover;
+   background-position: center;
+   height: 70%;
+   border-radius: 5px;
+}
+#bg-container{
+    background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/d.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container-2{
+    background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container-3{
+    background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container-4{
+    background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container h2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size:20px ;
+    top: 65%;
+}
+#bg-container-2 h2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size:20px ;
+    top: 65%;
+}
+#bg-container-3 h2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size:20px ;
+    top: 65%;
+}
+#bg-container-4 h2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size:20px ;
+    top: 65%;
+}
+
+
+.bg-story h2{
+position: relative;
+text-align: center;
+width: 100%;
+font-weight: 100;
+font-size:20px ;
+top: 90%;
+}
+.bg-story  .fa-plus{
+    font-size: 40px;
+    position: relative;
+    top: 85%;
+    left: 26px;
+}
+.addStory{
+    display: flex;
+    width: 125%;
+   position: relative;
+   right: 18%;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 17rem;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+.story{
+    width: 230%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    border-radius: .5rem;
+    background: rgb(8, 8, 8);
+    cursor: pointer;
+    height: 20rem;
+}
+
+.message{
+    display: grid;
+    background-color: #fff;
+    border-radius: 15px;
+  position: relative;
+  top: 100px;
+  right: 100px;
+  height: 10rem;
+  width: 130%;
+}
+.post{
+    display: flex;
+    justify-content: flex-start;
+}
+.post > img{
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+input[type=Mind]{
+    width: 90%;
+    margin: 15px 0;
+    height: 3.5rem;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    padding: 20px;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+input[type=Mind]::placeholder{
+    font-size: 1rem;
+    color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Call{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.ico{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+.icone> div{
+    color: rgb(43, 41, 41);
+    font-size: 15px;
+    padding: 10px;
+}
+.fa-video{
+    font-size:1.5rem;
+     color:red;
+}
+.fa-photo{
+    font-size:1.3rem;
+     color:rgb(83, 204, 113);
+}
+.fa-grin{
+    font-size:1.5rem;
+     color:rgb(206, 203, 56);
+}
+.divider{
+  color: green;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Posted
+{
+    background-color: red;
+}
