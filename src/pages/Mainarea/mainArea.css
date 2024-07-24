@@ -3,11 +3,13 @@
     justify-content: space-between;
 }
 .Lside{
-    height: 50rem;
-    width: 21%;
-    background-color: #f1f1f1;
+    height: auto;
+    width: 15%;
+    background-color: #fdfdfd;
     left: 0;
     flex-wrap: wrap;
+    border-radius: 10px;
+
 }
 .Lside .profile{
     display: flex;
@@ -25,6 +27,15 @@ width: 10%;
     flex-wrap: wrap;
     font-weight: 550;
     padding-left: 1rem;
+    cursor: pointer;
+}
+.pro:hover{
+    background-color: rgb(122, 122, 122);
+    transition:ease-in 0.7s;
+    border-radius: 5px;
+}
+.profile-tag:hover{
+    color: #b80d0d;
 }
 .pro > div{
     margin: 10px;
@@ -92,11 +103,17 @@ font-size: 1rem;
                 font-size: 15px;
                 font-weight: lighter;
             }
+            .pro .profile-tag:hover{
+                color: #fff;
+            }
 .Rside{
     height: 50rem;
-    width: 21%;
+    width: 18%;
     left: 0;
     flex-wrap: wrap;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+  
 }
 .Contact{
 display: flex;
@@ -138,8 +155,8 @@ justify-content: space-between;
     display: grid;
     justify-content: center;
     background: rgb(255, 255, 255);
-    width: 45%;
-    height: 20rem;
+    width: 46%;
+    height: 18rem;
     padding: 1rem;
     border-radius: 10px;
 
@@ -186,16 +203,35 @@ justify-content: space-between;
    background:linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p1.jpg') ;
    background-size: cover;
    background-position: center;
-   height: 70%;
+   height: 80%;
    border-radius: 5px;
+}
+.bg-story:hover{
+    background:linear-gradient(rgba(83, 65, 65, 0.5),rgba(199, 16, 16, 0.5)),url('/public/images/p1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    transition: ease-out 1s;
 }
 #bg-container{
     background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/d.jpg');
     background-position: center;
     background-size: cover;
+
+}
+#bg-container:hover{
+    background: linear-gradient(rgba(206, 21, 21, 0.5),rgba(72, 54, 233, 0.5)),url('/public/images/d.jpg');
+    transition: ease-out 1s;
+    background-position: center;
+    background-size: cover;
 }
 #bg-container-2{
     background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container-2:hover{
+    background: linear-gradient(rgba(206, 21, 21, 0.5),rgba(72, 54, 233, 0.5)),url('/public/images/p2.jpg');
+    transition: ease-out 1s;
     background-position: center;
     background-size: cover;
 }
@@ -206,6 +242,12 @@ justify-content: space-between;
 }
 #bg-container-4{
     background: linear-gradient(rgba(36, 36, 36, 0.5),rgba(43, 43, 43, 0.5)),url('/public/images/p1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#bg-container-3:hover{
+    background: linear-gradient(rgba(228, 134, 134, 0.5),rgba(72, 54, 233, 0.5)),url('/public/images/p1.jpg');
+    transition: ease-out 1s;
     background-position: center;
     background-size: cover;
 }
@@ -248,28 +290,30 @@ position: relative;
 text-align: center;
 width: 100%;
 font-weight: 100;
-font-size:20px ;
-top: 90%;
+font-size:17px ;
+top: 85%;
 }
 .bg-story  .fa-plus{
     font-size: 40px;
     position: relative;
     top: 85%;
-    left: 26px;
+    left: 12px;
+    color: #9db8db;
 }
 .addStory{
     display: flex;
-    width: 125%;
+    width: 100%;
    position: relative;
-   right: 18%;
+   right: 5%;
     color: #fff;
     font-size: 1.5rem;
-    height: 17rem;
+    height: 10rem;
     justify-content: flex-start;
     padding-left: 5%;
 }
+
 .story{
-    width: 230%;
+    width: 200%;
     margin: 0 5px;
     display: flex;
     align-items: center;
@@ -277,7 +321,7 @@ top: 90%;
     border-radius: .5rem;
     background: rgb(8, 8, 8);
     cursor: pointer;
-    height: 20rem;
+    height: 18rem;
 }
 
 .message{
@@ -285,10 +329,10 @@ top: 90%;
     background-color: #fff;
     border-radius: 15px;
   position: relative;
-  top: 100px;
-  right: 100px;
+  top: 160px;
+  right: 5px;
   height: 10rem;
-  width: 130%;
+  width: 100%;
 }
 .post{
     display: flex;
@@ -323,7 +367,7 @@ input[type=Mind]::placeholder{
     align-items: center;
     position: relative;
     top: 10px;
-    left: 40px;
+    right: 20px;
 }
 .ico{
     display: flex;
@@ -359,7 +403,62 @@ input[type=Mind]::placeholder{
     margin-top: 10px;
 }
 
-.Posted
+.Message-Section
 {
-    background-color: red;
+    display: grid;
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #fff;
+    margin-left: 1%;
+    margin-top: 40px;
+   
+}
+.Message-Content{
+    display: flex;
+    justify-content: space-between;
+}
+.Message-Cart{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.update{
+    font-size: 1rem;
+    font-weight:400;
+    padding-left:20px;
+}
+.edit{
+    margin:12px
+}
+.caption{
+    font-size: 1.3rem;
+    font-weight:500;
+    word-wrap:break-word;
+    padding-left: 4%;
+}
+.Comment{
+    display:flex;
+    justify-content: space-around;
+    height:5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Comment .Like{
+    color:rgb(41, 40, 40);
+    font-size: 15px;
+    
+} 
+.Message-Cart .profile-img{
+height: 50px;
+width: 50px;
+}
+.fnt-more{
+    font-size: 1.5rem;
+}
+.fb-img{
+    height: 300px;
+    width: 100%;
 }

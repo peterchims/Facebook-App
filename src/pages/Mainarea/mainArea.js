@@ -1,5 +1,5 @@
 import React from 'react'
-import {  FaAngleDown, FaFacebookMessenger, FaFontAwesomeFlag, FaGrin, FaMedrt, FaPlusCircle, FaSearch, FaUserFriends } from 'react-icons/fa'
+import {  FaAngleDown, FaClock, FaCommentAlt, FaFacebookMessenger, FaFontAwesomeFlag, FaGrin, FaMedrt, FaPlusCircle, FaRegShareSquare, FaRegThumbsUp, FaSearch, FaTag, FaUserFriends, FaWhatsapp } from 'react-icons/fa'
 import './mainArea.css'
 import { MdMoreHoriz, MdVideoCall } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
@@ -18,6 +18,14 @@ function MainArea() {
         <div  className='profile-tag'> Friends </div>
         </div>
         <div className='pro'>
+        <FaClock className='fa-mess' />
+        <div  className='profile-tag'> Memoriess </div>
+        </div>
+        <div className='pro'>
+        <FaTag className='fa-mess' />
+        <div  className='profile-tag'> Saved </div>
+        </div>
+        <div className='pro'>
             <FaFontAwesomeFlag  className='flag' />
             <div className='profile-tag'> Pages </div>
         </div>
@@ -29,7 +37,15 @@ function MainArea() {
         <FaFacebookMessenger className='fa-mess' />
         <div className='profile-tag'> Messenger Kids</div>
         </div>
-        
+        <div className='pro'>
+        <FaAngleDown className='fa-ang' />
+        <div className='profile-tag'> See More</div>
+        </div>
+        <hr />
+        <div className='pro'>
+        <FaFacebookMessenger className='fa-mess' />
+        <div className='profile-tag'> Messenger Kids</div>
+        </div>
         <div className='pro'>
         <FaAngleDown className='fa-ang' />
         <div className='profile-tag'> See More</div>
@@ -51,6 +67,8 @@ function MainArea() {
         <FaAngleDown />
         <div className='profile-tag'> See More</div>
         </div>
+
+        
     </div>
 
     <div className='MainArea'>
@@ -68,6 +86,10 @@ function MainArea() {
     </div>
     <div className='story' id="bg-container-2">
         <img src="/images/p2.jpg" alt="IMG" className='img-story-3' />
+        <h2> Lola Peter's</h2>
+    </div>
+    <div className='story' id='bg-container'>
+        <img src="/images/d.jpg" alt="IMG" className='img-story-2' />
         <h2> Lola Peter's</h2>
     </div>
     <div className='story' id="bg-container-3" >
@@ -100,18 +122,135 @@ function MainArea() {
             </div>
         </div>
     </div>
-    <div className='message-section-content'>
-    <div className="message-card">
-        <div className="message-container">
-        <img src="/images/p3.jpg" alt="IMG" className='img-story-1' />
-      <h4>Peter4Tech</h4>
+  <div className='Message-Section'>
+    <div className='Message-Content'>
+        <div className='Message-Cart'>
+            <img src="/images/p3.jpg" alt="content-image" className='profile-img'  />
+       Facebook Content
+       <div className='update'> Updated his Cover Image.</div>
         </div>
-        <div className='update'> Updated his cover image</div>
+        <div className='edit'><MdMoreHoriz className='fnt-more'/></div>
     </div>
-    <div className='edit'><MdMoreHoriz /></div>
-</div>
-</div>
+    <div className='caption'>
 
+This is dummy text, This is dummy text 
+This is dummy text This is dummy text 
+This is dummy text T
+his is dummy text This is dummy text
+    </div>
+    <div className='FacebookImg'>
+        <img src="/images/p3.jpg" alt="fb-img" className='fb-img' />
+    </div>
+    <div className='Comment'>
+        <div className="Like">
+            <FaRegThumbsUp  color="grey" /> Like
+        </div>
+        <div className="Like">
+            <FaCommentAlt  color="grey" /> Comment
+        </div>
+        <div className="Like">
+            <FaWhatsapp color="grey" /> Send
+        </div>
+        <div className="Like">
+            <FaRegShareSquare  color="grey" /> Share
+        </div>
+    </div>
+  </div>
+
+  {/*  */}
+  <div className='Message-Section'>
+    <div className='Message-Content'>
+        <div className='Message-Cart'>
+            <img src="/images/p3.jpg" alt="content-image" className='profile-img'  />
+       Facebook Content
+       <div className='update'> Updated his Cover Image.</div>
+        </div>
+        <div className='edit'><MdMoreHoriz className='fnt-more'/></div>
+    </div>
+    <div className='caption'>
+Please Like, Comment and Subscribe to our Youtube Channel.
+    </div>
+    <div className='FacebookImg'>
+        <img src="/images/p3.jpg" alt="fb-img" className='fb-img' />
+    </div>
+    <div className='Comment'>
+        <div className="Like">
+            <FaRegThumbsUp  color="grey" /> Like
+        </div>
+        <div className="Like">
+            <FaCommentAlt  color="grey" /> Comment
+        </div>
+        <div className="Like">
+            <FaWhatsapp color="grey" /> Send
+        </div>
+        <div className="Like">
+            <FaRegShareSquare  color="grey" /> Share
+        </div>
+    </div>
+  </div>
+
+  <div className='Message-Section'>
+    <div className='Message-Content'>
+        <div className='Message-Cart'>
+            <img src="/images/p3.jpg" alt="content-image" className='profile-img'  />
+       Facebook Content
+       <div className='update'> Updated his Cover Image.</div>
+        </div>
+        <div className='edit'><MdMoreHoriz className='fnt-more'/></div>
+    </div>
+    <div className='caption'>
+Please Like, Comment and Subscribe to our Youtube Channel.
+    </div>
+    <div className='FacebookImg'>
+        <img src="/images/p3.jpg" alt="fb-img" className='fb-img' />
+    </div>
+    <div className='Comment'>
+        <div className="Like">
+            <FaRegThumbsUp  color="grey" /> Like
+        </div>
+        <div className="Like">
+            <FaCommentAlt  color="grey" /> Comment
+        </div>
+        <div className="Like">
+            <FaWhatsapp color="grey" /> Send
+        </div>
+        <div className="Like">
+            <FaRegShareSquare  color="grey" /> Share
+        </div>
+    </div>
+  </div>
+
+  <div className='Message-Section'>
+    <div className='Message-Content'>
+        <div className='Message-Cart'>
+            <img src="/images/p3.jpg" alt="content-image" className='profile-img'  />
+       Facebook Content
+       <div className='update'> Updated his Cover Image.</div>
+        </div>
+        <div className='edit'><MdMoreHoriz className='fnt-more'/></div>
+    </div>
+    <div className='caption'>
+Please Like, Comment and Subscribe to our Youtube Channel.
+    </div>
+    <div className='FacebookImg'>
+        <img src="/images/p3.jpg" alt="fb-img" className='fb-img' />
+    </div>
+    <div className='Comment'>
+        <div className="Like">
+            <FaRegThumbsUp  color="grey" /> Like
+        </div>
+        <div className="Like">
+            <FaCommentAlt  color="grey" /> Comment
+        </div>
+        <div className="Like">
+            <FaWhatsapp color="grey" /> Send
+        </div>
+        <div className="Like">
+            <FaRegShareSquare  color="grey" /> Share
+        </div>
+    </div>
+  </div>
+</div>
 </div>
 
  
