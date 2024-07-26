@@ -256,15 +256,39 @@ Please Like, Comment and Subscribe to our Youtube Channel.
  
 
     <div className='Rside'>
+        <div className='Sponsored-ads'>
+            <div className='sponsors'>
+            <h2> Sponsored</h2>
+            </div>
+            <div className='sponsored-content'>
+                <img src="/images/p3.jpg" className="sponsor-img"   alt="sponsored-img"/>
+                <h4> 300 scholarships available for British MBA degrees</h4>          
+            </div><br />
+            <div className='sponsored-content'>
+                <img src="/images/p3.jpg" className="sponsor-img"   alt="sponsored-img"/>
+                <h4> 300 scholarships available for British MBA degrees</h4>          
+            </div>
+        </div>
+        <hr className='sp-divider'/>
+        <br/>
+        <div className='pages'>
+            <div className='page-header'>
+                <h4> Your Pages and Profile </h4>
+            </div>
+            <div className='page-content'>
+                <div className='sub-section'>
+                    <img src="/images/p3.jpg" style={{}} alt="page-img" />
+                    <h3> Contents Preview </h3>
+                </div>
+            </div>
+        </div>
      <div className='Contact'>
         <div className='Contacts'>
             Contacts
         </div>
      
      <div className='chatIcon'>
-        <div className="icons">
-            <MdVideoCall />
-        </div>
+        
         <div className="icons">
             <FaSearch  />
         </div>

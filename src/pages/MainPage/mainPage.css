@@ -92,6 +92,10 @@ right: 30px;
 text-align: center;
     
 }
+.hr-divider{
+    padding-bottom: 20px;
+    color: red;
+}
 .home{
     color: #1877F2;
     font-size: 1.5rem;
